@@ -1,0 +1,17 @@
+{
+  "name": "plato-es6",
+  "description": "Demonstrating Plato with ES6",
+  "private": true,
+  "scripts": {
+    "metrics:compile_source": "./node_modules/.bin/babel --optional runtime src/ --out-dir dist/metrics/src",
+    "metrics": "npm run metrics:compile_source && ./node_modules/.bin/plato -r -l .jshintrc -d dist/metrics/report dist/metrics/src"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babel-runtime": "^5.4.7",
+    "plato": "^1.5.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}

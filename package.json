@@ -7,11 +7,11 @@
     "metrics": "npm run metrics:compile_source && ./node_modules/.bin/plato -r -l .jshintrc -d dist/metrics/report dist/metrics/src"
   },
   "devDependencies": {
-    "babel": "^5.4.7",
-    "babel-runtime": "^5.4.7",
+    "babel": "^6.23.0",
+    "babel-runtime": "^6.23.0",
     "plato": "^1.5.0"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^15.6.1"
   }
 }

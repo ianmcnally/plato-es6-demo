@@ -1,5 +1,7 @@
 # plato-es6-demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ianmcnally/plato-es6-demo.svg)](https://greenkeeper.io/)
+
 A demonstration of using ES6 & Babel with Plato.
 
 Inside `src/` there's a demo `.jsx` and a demo `.js` file written in ES6.
